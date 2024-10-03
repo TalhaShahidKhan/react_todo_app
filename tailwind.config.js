@@ -6,7 +6,12 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        ubuntu: ['"Ubuntu"', "sans-serif"],
+        // Add more custom font families as needed
+      },
+    },
   },
   plugins: [
     flowbite.plugin(),
